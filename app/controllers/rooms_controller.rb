@@ -1,5 +1,8 @@
 class RoomsController < ApplicationController
 
+  def index
+    
+  end
 
   # 新規画面表示  
   def new
