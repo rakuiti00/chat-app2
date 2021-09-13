@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :message do
-      content {Faker::Lorem.sentence}
-        
+      # content {Faker::Lorem.sentence}
+      content {Faker::Games::Touhou.spell_card}
       association :user
       association :room
       
